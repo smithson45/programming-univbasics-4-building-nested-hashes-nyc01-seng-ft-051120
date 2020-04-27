@@ -21,6 +21,7 @@ def monopoly_with_third_tier
   # complexity.
   x = {:railroads => {:pieces => 4,:rent_in_dollars => {},:names => {}}}
   [:railroads][:rent_in_dollars] = {:one_piece_owned => 25}
+  binding.pry
   
 end
 
